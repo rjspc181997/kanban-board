@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="notepad">
+            <h2>To-do</h2>
+            <ul class="sort connectSort">
+                <li class="note">Monday, Meeting</li>
+                <li class="note">Tuesday, Zoom Meeting</li>
+                <li class="note">Groceciers</li>
+            </ul>
+            <div class="link">
+                <input type="text" id="new_text" value=""/>
+                <input type="button" name="btnAddNew" value="Add" class="add-button"/>
+            </div>
+        </div>
+        <div class="notepad">
+            <h2>In Progress</h2>
+            <ul class="sort connectSort">
+                <li class="note">HTML CSS Media Queries</li>
+            </ul>
+        </div>
+        <div class="notepad">
+            <h2>For Approval</h2>
+            <ul class="sort connectSort">
+                <li class="note">Jean</li>
+                <li class="note">Marco</li>
+            </ul>
+        </div>
+        <div class="notepad">
+            <h2>For Testing</h2>
+            <ul class="sort connectSort">
+        
+            </ul>
+        </div>
+        <div class="notepad">
+            <h2>Done</h2>
+            <ul class="sort connectSort">
+                <li class="note">Mcdo</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
